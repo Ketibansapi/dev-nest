@@ -1,4 +1,9 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get, Post, Put, Delete } from '@nestjs/common';
+import { Response, Request } from 'express';
 
 @Controller('devices')
-export class DevicesController {}
+export class DevicesController {
+    constructor() {}
+
+
+}
